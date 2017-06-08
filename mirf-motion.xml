@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/joerg/Development/KiCad/mirf-motion/mirf-motion.sch</source>
+    <date>Sa 06 Mai 2017 10:39:53 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RF24 Window Sensor</title>
+        <company/>
+        <rev/>
+        <date>17 jul 2016</date>
+        <source>mirf-motion.sch</source>
+        <comment number="1" value="License: see cern_ohl_v_1_2.txt"/>
+        <comment number="2" value="2016"/>
+        <comment number="3" value="by Jörg Wolff"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>ATTINY84A-SS</value>
+      <footprint>SMD_Packages:SSOP-14</footprint>
+      <libsource lib="atmel" part="ATTINY84A-SS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6C2A</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>4X2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <libsource lib="mirf-motion-cache" part="CONN_4X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6C99</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>3X2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x03</footprint>
+      <libsource lib="mirf-motion-cache" part="CONN_3X2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6CB7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2M2</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6CCB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22</value>
+      <footprint>Capacitors_SMD:c_elec_5x4.5</footprint>
+      <libsource lib="mirf-motion-cache" part="CPsmall"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6DC8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>578B6DD7</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>E931.96</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="Elmos" part="E931.96"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D11CD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>LHi968</value>
+      <footprint>TO_SOT_Packages_THT:TO-43_3Pin</footprint>
+      <libsource lib="transistors" part="LHi968"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D1EAE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D22C5</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470n</value>
+      <footprint>Capacitors_SMD:C_1812_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D241B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D2588</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_1206_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D25F0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_4.6_4.0_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D2D9B</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Term-2p</value>
+      <footprint>Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol</footprint>
+      <libsource lib="conn" part="Term-2p"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580D5741</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_SMALL</footprint>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580DE88A</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_NO_Small</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <libsource lib="device" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>580DEF5E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="atmel" part="ATTINY24A-SS">
+      <aliases>
+        <alias>ATTINY44A-SS</alias>
+        <alias>ATTINY84A-SS</alias>
+      </aliases>
+      <description>SO14, 2k Flash, 128B SRAM, 128B EEPROM, dW</description>
+      <docs>http://www.atmel.com/Images/doc8183.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ATTINY24A-SS</field>
+        <field name="Footprint">SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="(PCINT8/CLKI/XTAL1)PB0" type="BiDi"/>
+        <pin num="3" name="(PCINT9/XTAL2)PB1" type="BiDi"/>
+        <pin num="4" name="(PCINT11/dW/~RESET~)PB3" type="BiDi"/>
+        <pin num="5" name="(PCINT10/CKOUT/OC0A/INT0)PB2" type="BiDi"/>
+        <pin num="6" name="(PCINT7/ICP/OC0B/ADC7)PA7" type="BiDi"/>
+        <pin num="7" name="(PCINT6/SDA/DI/MOSI/OC1A/ADC6)PA6" type="BiDi"/>
+        <pin num="8" name="(PCINT5/DO/MISO/OC1B/ADC5)PA5" type="BiDi"/>
+        <pin num="9" name="(PCINT4/USCK/SCL/T1/ADC4)PA4" type="BiDi"/>
+        <pin num="10" name="(PCINT3/T0/ADC3)PA3" type="BiDi"/>
+        <pin num="11" name="(PCINT2/AIN1/ADC2)PA2" type="BiDi"/>
+        <pin num="12" name="(PCINT1/AIN0/ADC1)PA1" type="BiDi"/>
+        <pin num="13" name="(PCINT0/AREF/ADC0)PA0" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mirf-motion-cache" part="CONN_3X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mirf-motion-cache" part="CONN_4X2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_4X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mirf-motion-cache" part="CPsmall">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPsmall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Elmos" part="E931.96">
+      <description>PIR Motion Detection Circuit</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">E931.96</field>
+        <field name="Footprint">SO8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="DOCI" type="BiDi"/>
+        <pin num="3" name="SERIN" type="input"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="VPIR" type="output"/>
+        <pin num="6" name="NPIRIN" type="input"/>
+        <pin num="7" name="PIRIN" type="input"/>
+        <pin num="8" name="TEST" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Jumper_NO_Small">
+      <description>Jumper normally open</description>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="LHi968">
+      <description>Pyroelectric Detector ,TO-5</description>
+      <footprints>
+        <fp>TO-5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">LHi968</field>
+        <field name="Footprint">TO-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Term-2p">
+      <description>Terminal 2 pole</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Term-2p</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="power_out"/>
+        <pin num="2" name="2" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="transistors">
+      <uri>/home/joerg/Development/KiCad/lib/library/transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/home/joerg/Development/KiCad/lib/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/home/joerg/Development/KiCad/lib/library/conn.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>/home/joerg/Development/KiCad/lib/library/atmel.lib</uri>
+    </library>
+    <library logical="Elmos">
+      <uri>/home/joerg/Development/KiCad/lib/library/Elmos.lib</uri>
+    </library>
+    <library logical="mirf-motion-cache">
+      <uri>/home/joerg/Development/KiCad/mirf-motion/mirf-motion-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D1-Pad12)">
+      <node ref="D1" pin="12"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C4-Pad2)">
+      <node ref="D2" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad13)">
+      <node ref="D2" pin="3"/>
+      <node ref="D1" pin="13"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad1)">
+      <node ref="D2" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad5)">
+      <node ref="P1" pin="3"/>
+      <node ref="D1" pin="5"/>
+    </net>
+    <net code="6" name="Net-(D1-Pad9)">
+      <node ref="P2" pin="3"/>
+      <node ref="D1" pin="9"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad7)">
+      <node ref="P2" pin="4"/>
+      <node ref="D1" pin="7"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad4)">
+      <node ref="P2" pin="5"/>
+      <node ref="D1" pin="4"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="14"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="D2" pin="6"/>
+      <node ref="D2" pin="8"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="10" name="+BATT">
+      <node ref="C3" pin="1"/>
+      <node ref="D2" pin="4"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="X1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="14" name="Net-(D1-Pad6)">
+      <node ref="D1" pin="6"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad10)">
+      <node ref="D1" pin="10"/>
+    </net>
+    <net code="16" name="Net-(D1-Pad11)">
+      <node ref="D1" pin="11"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad8)">
+      <node ref="P2" pin="1"/>
+      <node ref="D1" pin="8"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="18" name="Net-(P1-Pad8)">
+      <node ref="P1" pin="8"/>
+    </net>
+  </nets>
+</export>
